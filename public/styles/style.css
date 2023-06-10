@@ -33,4 +33,8 @@
   color: black;
   height: 100%;
 }
-
+.rowmain{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
