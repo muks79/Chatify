@@ -37,10 +37,14 @@
    display: flex;
   justify-content: center;
   align-items: center;
- background: rgb(39,84,115);
-background: linear-gradient(90deg, rgba(39,84,115,1) 0%, rgba(55,205,235,1) 0%, rgba(105,116,153,1) 92%); 
+ background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 92%); 
+
 }
 .loginhtml{
- background: rgb(39,84,115);
-background: linear-gradient(90deg, rgba(39,84,115,1) 0%, rgba(55,205,235,1) 0%, rgba(105,116,153,1) 92%); 
+ background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 92%); 
+}
+.main-heading{
+  color:white;
 }
