@@ -16,7 +16,7 @@ $(document).ready(function(){
 socket.on("user-connected", (userName) => {
     let html = `
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12" >
+            <div class="col-12 col-md-12 col-lg-12">
                 ${userName} just joined the room!
             </div>
         </div>
@@ -32,7 +32,7 @@ $(".send-msg").click(function(){
         socket.emit("message", name, roomId, msg);
         let html = `
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 >
+                <div class="col-12 col-md-12 col-lg-12">
                     Me: ${msg} 
                 </div>
             </div>
@@ -52,7 +52,7 @@ socket.on("receive-msg", (userName, msg) => {
     if (name !== userName) {
         let html = `
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 >
+                <div class="col-12 col-md-12 col-lg-12">
                     ${userName}: ${msg} 
                 </div>
             </div>
