@@ -24,12 +24,12 @@
 }
 
 #msg-area {
-  background-color: #7c9af2;
+  background-image: linear-gradient(rgb(156, 105, 156), rgb(156, 105, 156));
   border-top: 1px solid black;
 }
 
 .send-msg {
-  background-color: #7c9af2;
+  background-image: linear-gradient(rgb(156, 105, 156), rgb(156, 105, 156));
   width: 100%;
   border: none;
   color: black;
