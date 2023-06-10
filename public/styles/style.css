@@ -42,7 +42,9 @@
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100%;
+  line-height: 0.4;
+width: 136px;
+height: 42px;
 }
 
 .button-19:after {
