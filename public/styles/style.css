@@ -36,6 +36,8 @@
 .rowmain{
    display: flex;
   justify-content: center;
-  align-items: center;backgroung-color:black;
+  align-items: center;
+  backgroung-color:black;
+color:white;
 }
 
