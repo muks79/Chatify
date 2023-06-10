@@ -32,7 +32,7 @@ $(".send-msg").click(function(){
         socket.emit("message", name, roomId, msg);
         let html = `
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-12" >
+                <div class="col-12 col-md-12 col-lg-12 id="txt" >
                     Me: ${msg} 
                 </div>
             </div>
@@ -52,7 +52,7 @@ socket.on("receive-msg", (userName, msg) => {
     if (name !== userName) {
         let html = `
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-12 col-md-12 col-lg-12 id="txt">
                     ${userName}: ${msg} 
                 </div>
             </div>
