@@ -21,6 +21,7 @@
   min-height: calc(100vh - 50px);
   background-image: linear-gradient(rgb(255, 255, 255), rgb(156, 105, 156));
   /* background-color: #7c9af2; */
+  overflow:auto;
 }
 
 #msg-area {
