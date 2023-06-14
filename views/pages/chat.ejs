@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +9,63 @@
     <!-- Style -->
     <link rel="stylesheet" href="/static/styles/style.css">
 
-    <!-- Boostrap 5 -->    
+    <!-- Boostrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+  <body>
+    <div id="bhar" style="
+        height: 36px;
+        /*! background-color: background: rgb(19,18,18); */
+        /*! background: linear-gradient(90deg, rgba(19,18,18,1) 0%, rgba(33,32,32,1) 48%, rgba(17,16,16,1) 92%); */
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background: black;
+        box-shadow: bisque;
+        /*! box-shadow: 26px 32px 33px 12px rgba(0, 0, 0, 0.2); */
+      ">
+      <img src="https://www.freeiconspng.com/uploads/live-chat-icon-13.png" alt="Simple Png Live Chat" style="width: 32px">
+      <span id="logo" style="color: aliceblue;padding-top: 6px;padding-left: 11px;"> M-Chat </span>
+    </div>
     <div class="container-fluid">
+      <div class="row" style="background: rgb(18,11,11);background: linear-gradient(90deg, rgba(18,11,11,1) 0%, rgba(47,40,40,1) 0%, rgba(22,17,17,1) 92%);">
+        <div class="col-12 col-md-12 col-lg-12 pb-5" id="chat-area" style="color: aqua;">
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 pb-5" id="chat-area">
-                
-            </div>
-            <div class="col-10 col-md-11 col-lg-11 p-2" id="msg-area">
-                <input type="text" class="form-input chat-msg" id="chat-msg" placeholder="Enter your message" />
-            </div>
-            <div class="col-2 col-md-1 col-lg-1 p-2 sendButton">
-                <button class="send-msg"><i class="fa-solid fa-paper-plane"></i></button>
+            <div class="col-12 col-md-12 col-lg-12">
+                sa just joined the room!
             </div>
         </div>
+    
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                sa just joined the room!
+            </div>
+        </div>
+    
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    Me: hi 
+                </div>
+            </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                sa just joined the room!
+            </div>
+        </div>
+    </div>
+        <div class="col-10 col-md-11 col-lg-11 p-2" id="msg-area">
+          <input type="text" class="form-input chat-msg" id="chat-msg" placeholder="Enter your message">
+        </div>
+        <div class="col-2 col-md-1 col-lg-1 p-2 sendButton" style="border: cadetblue;border-radius: 56px;">
+          <button class="send-msg" style="border: aqua;border-radius: 55px;">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- Socket.io -->
@@ -40,5 +77,6 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
     <script src="/static/js/chat.js"></script>
-</body>
-</html>
+  
+
+</body></html>
