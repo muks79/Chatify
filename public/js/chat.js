@@ -17,7 +17,7 @@ socket.on("user-connected", (userName) => {
     let html = `
         <div class="row row1" >
             <div class="col-12 col-md-12 col-lg-12">
-                ${userName} JUST JOIN THE CHATROOM YEEEEE!!!!
+               <b> ${userName} JOINED THE CHAT-ROOM!!!!</b>
             </div>
         </div>
     `
