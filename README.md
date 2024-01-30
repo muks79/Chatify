@@ -28,5 +28,4 @@ This project represents my passion for creating dynamic and interactive web appl
 
 ## Live Preview
 
-Feel free to explore the codebase on [GitHub](link-to-github-repository). Contributions and feedback are always welcome!
-
+  (https://muks-chat.onrender.com/)
