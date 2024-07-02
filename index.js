@@ -16,7 +16,7 @@ const io = new Server(httpServer, { /* options */ });
 
 const uuid = require("uuid");
 
-const port = 3090
+const port = 2828
 
 app.get('/', (req, res) => {
     res.render('pages/index');
